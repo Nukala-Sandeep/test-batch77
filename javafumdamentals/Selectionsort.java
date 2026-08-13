@@ -14,11 +14,11 @@ public class Selectionsort {
 		for(int i=0;i<arr.length-1;i++) {
 			int minIndex=i;
 			count++;
-			boolean flag=false;
+			
 			for(int j=i+1;j<arr.length;j++) {
 				if(arr[j]<arr[minIndex]) {
 					minIndex=j;
-					flag=true;
+					
 					
 				}
 				count1++;
@@ -26,9 +26,6 @@ public class Selectionsort {
 			int temp=arr[i];
 			arr[i]=arr[minIndex];
 			arr[minIndex]=temp;
-//			if(!flag) {
-//				break;
-//			}
 			
 		}
 		
