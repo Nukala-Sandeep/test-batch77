@@ -1,16 +1,16 @@
 package com.javaintro;
 
 public class Product {
-	int productId;
+	public int productId;
 	String productName;
 	double productPrice;
 	String productInfo;
 	static String companyName;
-	void display() {
+	public void display() {
 		companyName="Sunfiet";
 		System.out.println("Company Name: "+companyName);
 	}
-	void show() {
+	public void show() {
 		
 		System.out.println("Product Id: "+productId);
 		System.out.println("Product Name: "+productName);
