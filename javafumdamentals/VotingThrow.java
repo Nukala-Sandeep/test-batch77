@@ -16,7 +16,6 @@ public class VotingThrow {
 		Scanner sc=new Scanner(System.in);
 		
 		try {
-			
 			System.out.println("Enter your age: ");
 			int age=sc.nextInt();
 			votingSystem(age);
@@ -25,8 +24,11 @@ public class VotingThrow {
 		catch (ArithmeticException e) {
 			System.out.println(e.getMessage());
 		}
+		
 		finally {
+			System.exit(0);
 			System.out.println("Every vote count.");
+			
 		}
 		sc.close();
 		
