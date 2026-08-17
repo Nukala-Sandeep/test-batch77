@@ -30,6 +30,4 @@ public class PrimitiveDT {
 		System.out.println(si);
 		
 	}
-	
-
 }
