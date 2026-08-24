@@ -6,7 +6,7 @@ public class PrimitiveDT {
 		Integer i=9;
 		int a=i;
 		Character ch='w';
-		 
+		 char c1='9';
 		char c=ch;
 		String s="121";
 		int si=Integer.parseInt(s);
@@ -26,6 +26,7 @@ public class PrimitiveDT {
 		System.out.println((char)si);
 		System.out.println(c);
 		System.out.println((int)c);
+		System.out.println("c1:"+c1);
 		System.out.println(s);
 		System.out.println(si);
 		

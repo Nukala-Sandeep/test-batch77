@@ -46,7 +46,7 @@ public class Keywords {
 		System.out.println("Char g: "+g);
 		System.out.println("Int g1: "+g1);
 		System.out.println("Char g1: "+(char)g);
-		System.out.println("Uppercase g: "+(char)(g-32));
+		System.out.println("lowercase g: "+(char)(g+32));
 		System.out.println("Char after g: "+ ++g);
 		System.out.println("ASCCI value of "+ g+": "+(int)g);
 		System.out.println("boolean h:"+h);
